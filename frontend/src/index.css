@@ -1,0 +1,50 @@
+.section {
+    padding: 75px 0;
+}
+
+.container {
+    max-width: 1024px; 
+
+    margin: 0 auto;
+}
+
+
+
+.heading {
+    font-size: 44px; 
+    line-height: 54px; 
+    font-weight: 700;
+    color: var(--heading-color); 
+}
+
+.text-para {
+    font-size: 18px; 
+    line-height: 30px; 
+    font-weight: 400;
+    color: var(--text-color);
+    margin-top: 18px; 
+}
+
+@media (max-width: 768px) {
+    .text-para {
+        font-size: 16px; 
+        line-height: 28px; 
+        margin-top: 10px; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 26px;
+        line-height: 36px;
+    }
+}
+
+
+/* Medium screens (768px to 1024px) */
+@media (max-width: 1024px) {
+    .section {
+        padding: 35px 0;
+    }
+}
